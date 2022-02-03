@@ -19,13 +19,47 @@
   text-decoration: line-through;
 }
 
+.in-bl {
+  display: inline-block;
+  padding: 5px;
+}
+
 /* utilities */
 
 .card {
   display: inline-block;
   width: 30%;
+  position: relative;
 }
 
 .card img {
   width: 100%;
+}
+
+.heart {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background-color: #ffffff;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.tag {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+}
+
+.discount {
+  background-color: #eb0037;
+  color: #ffffff;
+}
+
+.eco {
+  background-color: #00875a;
+  color: #ffffff;
 }
