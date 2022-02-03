@@ -32,6 +32,10 @@
   padding: 5px;
 }
 
+.green {
+  color: #00875a;
+}
+
 /* utilities */
 
 .gallery {
@@ -89,4 +93,13 @@
 
 .card:hover .img-hover {
   display: block;
+}
+
+.footer {
+  border-top: 2px solid #00875a;
+  width: 40%;
+  height: 30%;
+  margin: 10px auto;
+  text-align: center;
+  font-style: italic;
 }
