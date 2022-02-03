@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* utilities */
+
+.light-text {
+  font-weight: 200;
+}
+
+.red-text {
+  color: #eb0037;
+  margin-right: 5px;
+}
+
+.del {
+  text-decoration: line-through;
+}
+
+/* utilities */
+
+.card {
+  display: inline-block;
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+}
