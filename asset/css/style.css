@@ -57,6 +57,7 @@
 
 .heart {
   position: absolute;
+  cursor: pointer;
   right: 0;
   top: 10px;
   background-color: #ffffff;
