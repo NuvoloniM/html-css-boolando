@@ -63,3 +63,15 @@
   background-color: #00875a;
   color: #ffffff;
 }
+
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.card:hover .img-hover {
+  display: block;
+}
